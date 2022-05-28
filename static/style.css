@@ -1,0 +1,35 @@
+@keyframes sony{
+    0%{background-color: white; left: 0; top: 540px; right: 0; bottom: 0;}
+    10%{border-radius: 50%; left: 800px; right: 0; top: 0; bottom: 0; background-color: yellow;}
+    20%{border-radius: 40px; left: 800px; right: 0; top: 550px;background-color: rgba(1, 1, 1, 0.5);}
+    30%{ background-color: aliceblue; top: 0; right: 0; left: 20px; bottom: 540px;}
+    40%{background-color: blueviolet; left: 1100px; top: 0; right: 0; bottom: 0;}
+    50%{background-color: red; left: 1100px; top: 500px; right: 0; bottom: 0;}
+    60%{background-color: aquamarine; top: 0; left: 1100px; bottom}
+    /* 60%{background-color: red; left: 1100px; top: 500px; right: 0; bottom: 0;} */
+    /* 70%{background-color: rosybrown; left: 0; top: 0; right: 0; bottom: 0;}  */
+}
+
+div{
+    height: 110px;
+    width: 130px;
+    /* border-radius: 40px; */
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation-name: sony;
+    animation-duration: 7s;
+    position: relative;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+}
+
+
+p{
+    font-size: 95px;
+    font-weight: 900;
+}
+

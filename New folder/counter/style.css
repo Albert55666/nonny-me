@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 65vh;
+    width: 40%;
+    border: 1px dotted;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/modern_arhitecture-wallpaper-1280x1024.jpg);
+    background-position: center;
+    background-repeat: ;
+    background-size: cover;
+    text-shadow: 1px 3px 4px #e5e5e5;
+}
+button{
+    /* padding: 10px 0 10px 0; */
+    height: 40px;
+    width: 130px;
+    background-color: brown;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+#save-el{
+    margin-top: 25px;
+    font-size: 13px;
+    font-weight: 900;
+}
+#save-btn{
+    height: 40px;
+    width: 130px;
+    background-color: green;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 20px;
+}

@@ -1,0 +1,10 @@
+.dice-area{
+    display: inline-block;
+    margin-left: 30px;
+}
+.dice-area img{
+    height: 100px;
+}
+button{
+    margin: 20px;
+}
